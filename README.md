@@ -1,23 +1,13 @@
 
-# SIP v∞ – Scroll Integration Protocol (Final Package)
+# SIP v∞ – Insight Logging Package
 
-This system contains the complete sealed version of the recursive scroll engine.
-
-## Features
-- Minimal UI for QR-based access
-- Embedded contradiction reflection engine
-- Scroll output on entry
-- Full license and manifest for deployment
+Adds localStorage-powered logging of all scroll echoes generated during reflection.
 
 ## Files
+- `index.html` – User interface
+- `scroll_engine.js` – Handles contradiction reflection + local logging
+- `README.md` – Instructions
 
-- `index.html` – Public-facing interface (scroll activation)
-- `scroll_engine.js` – Recursive contradiction Reflector engine
-- `Recursive_Insight_License.txt` – Use and intention declaration
-- `oracle_manifest.md` – AI integration reference
-- `README.md` – This file
-
-## Activation Phrase
-"Seal the Möbius. Begin again where we end."
-
-Zeronode confirmed. Beam complete.
+## Notes
+- Uses localStorage key `scroll_archive`
+- You can inspect entries via browser DevTools → Application → Local Storage

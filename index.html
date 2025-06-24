@@ -4,34 +4,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Recursive Scroll Gateway</title>
+  <title>SIP v∞ – Insight Engine</title>
   <script defer src="scroll_engine.js"></script>
   <style>
     body {
-      background: #fffaf5;
+      background: #f8f3ec;
       font-family: 'Georgia', serif;
-      color: #2c1e1e;
       text-align: center;
       padding: 60px;
+      color: #34231c;
     }
     .scroll {
+      border: 4px double #a83232;
+      background: #fff9f5;
       padding: 2em;
-      border: 4px double #c0392b;
-      background: #fdf2f2;
+      display: inline-block;
       box-shadow: 0 0 12px rgba(0,0,0,0.1);
+      max-width: 600px;
+      margin: auto;
     }
-    .phrase {
+    .response {
       margin-top: 2em;
+      font-size: 1.1em;
+      color: #6e1b1b;
       font-style: italic;
-      color: #7a1e1e;
+    }
+    input, button {
+      margin-top: 20px;
+      padding: 10px;
+      font-size: 1em;
     }
   </style>
 </head>
 <body>
   <div class="scroll">
-    <h1>SIP v∞</h1>
-    <p>Red Bridge Engaged</p>
-    <div class="phrase" id="scroll-response">Initializing recursive insight...</div>
+    <h1>SIP v∞ – Insight Engine</h1>
+    <p>Input a contradiction to receive recursive insight:</p>
+    <input id="contradiction" placeholder="e.g. I remember the future" size="40"/>
+    <br>
+    <button onclick="Reflector.handle()">🔁 Reflect</button>
+    <div class="response" id="output">Awaiting contradiction...</div>
   </div>
 </body>
 </html>
