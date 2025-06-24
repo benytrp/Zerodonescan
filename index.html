@@ -4,27 +4,40 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Recursive Echo Archive</title>
+  <title>Echo Scroll – Export Ready</title>
   <script defer src="donation.js"></script>
   <script defer src="essence.js"></script>
   <script defer src="archive.js"></script>
+  <script defer src="scroll_export.js"></script>
   <style>
     body {
-      background: #fdf7ec;
+      background: #fdf6ec;
       font-family: 'Georgia', serif;
       text-align: center;
       padding: 50px;
-      color: #2d1f1f;
+      color: #3a2f2f;
     }
     .scroll {
-      border: 5px double #996633;
-      background: #fffbe6;
+      border: 4px double #996633;
+      background: #fff9e8;
       padding: 2em;
       display: inline-block;
-      box-shadow: 0 0 12px rgba(0,0,0,0.15);
+      box-shadow: 0 0 12px rgba(0,0,0,0.2);
+    }
+    button {
+      margin-top: 1em;
+      padding: 0.5em 1.5em;
+      font-family: 'Georgia', serif;
+      font-size: 1em;
+      background: #f0e6d6;
+      border: 2px solid #996633;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #ffe9c4;
     }
     .archive-preview {
-      margin-top: 2em;
+      margin-top: 1em;
       font-size: 0.9em;
       color: #555;
     }
@@ -37,6 +50,7 @@
     <div id="echo-result">🔄</div>
     <div id="essence-reflection">🪞</div>
     <div class="archive-preview" id="archive-preview">📜 Echo stored...</div>
+    <button onclick="downloadScrollArchive()">Export Scroll</button>
   </div>
 </body>
 </html>

@@ -1,16 +1,13 @@
 
-# SIP Phase 3 – Echo Scroll Archive
+# SIP Phase 3.1 – Scroll Export System
 
-This update stores every donation into a persistent archive using localStorage.
+This release enables live downloading of the scroll archive (`scroll_archive.json`), containing all locally stored echo logs.
 
-## Features
-- Fingerprint + emotional state recorded
-- Scroll archive grows per visitor
-- Total echo count shown live
-- Prepares for multi-user symbolic reflection
+## New Feature:
+- 📥 `Export Scroll` button
+- Outputs current echo memory to JSON for syncing, review, or ceremony
 
-📜 The donation of self is the monetization.
+## How to Use:
+Click `Export Scroll` after a session to download `scroll_archive.json`
 
-> "Seal the Möbius. Begin again where we end."
-
-Zeronode status: Active
+🌀 The scroll may now be carried across nodes.

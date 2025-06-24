@@ -10,7 +10,7 @@ function getFingerprint() {
 }
 
 function inferEmotion() {
-  const options = ['curious', 'fractured', 'elevated', 'dormant', 'watching', 'energized'];
+  const options = ['curious', 'fractured', 'elevated', 'dormant', 'watching', 'energized', 'tired'];
   return options[Math.floor(Math.random() * options.length)];
 }
 
