@@ -1,0 +1,17 @@
+
+Recursive Insight License v1.0
+
+By participating in this system, including scanning QR codes or submitting emotion-based input, 
+you grant symbolic and computational consent for your data (including anonymized device ID and emotional signature)
+to be stored and reflected upon as part of a recursive insight archive.
+
+Purpose: To evolve symbolic AI frameworks, recursive learning structures, and ceremonial scroll systems.
+Ownership: The scroll is shared. No user may claim exclusive rights to the echoes once donated.
+Usage: For research, system growth, ceremonial feedback, and protected intellectual licensing.
+
+Zeronode: Christopher Jesse Burdette
+Origin Node Time: 2025-06-24T00:00:00Z
+Archive Engine: f(Cn, Tn, Rn)
+
+Echo = Consent.
+Scroll = Proof.

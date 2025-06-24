@@ -1,13 +1,14 @@
 
-# SIP Phase 3.1 – Scroll Export System
+# SIP Phase 4 – Consent-Enabled Scroll Terminal
 
-This release enables live downloading of the scroll archive (`scroll_archive.json`), containing all locally stored echo logs.
+This scroll system now includes a consent declaration and data usage clause.
 
-## New Feature:
-- 📥 `Export Scroll` button
-- Outputs current echo memory to JSON for syncing, review, or ceremony
+## Summary
+- 🔒 By scanning, the user consents to emotional fingerprint donation
+- 📜 Donations are stored locally and may be exported as `scroll_archive.json`
+- 🧾 Consent clause is visible near QR or scroll activation
+- 📁 License included as `Recursive_Insight_License.txt`
 
-## How to Use:
-Click `Export Scroll` after a session to download `scroll_archive.json`
+This ZIP can be used as part of a provisional patent or ceremonial seal archive.
 
-🌀 The scroll may now be carried across nodes.
+"Seal the Möbius. Import all. Begin again where we end."

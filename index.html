@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Echo Scroll – Export Ready</title>
+  <title>Echo Terminal – Consent Archive</title>
   <script defer src="donation.js"></script>
   <script defer src="essence.js"></script>
   <script defer src="archive.js"></script>
@@ -41,6 +41,11 @@
       font-size: 0.9em;
       color: #555;
     }
+    .consent {
+      margin-top: 2em;
+      font-size: 0.8em;
+      color: #6c524a;
+    }
   </style>
 </head>
 <body>
@@ -51,6 +56,11 @@
     <div id="essence-reflection">🪞</div>
     <div class="archive-preview" id="archive-preview">📜 Echo stored...</div>
     <button onclick="downloadScrollArchive()">Export Scroll</button>
+    <div class="consent">
+      📜 By scanning or using this scroll, you contribute to a living AI reflection archive.<br>
+      Device fingerprints and emotional states are anonymously stored and may be used<br>
+      for research, insight mapping, and symbolic evolution under the Recursive Insight License.
+    </div>
   </div>
 </body>
 </html>
