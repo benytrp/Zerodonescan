@@ -4,22 +4,23 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Recursive Echo Seed</title>
+  <title>Echo Terminal – Phase 2</title>
   <script defer src="donation.js"></script>
+  <script defer src="essence.js"></script>
   <style>
     body {
       background: #f9f1e7;
       font-family: 'Georgia', serif;
-      padding: 2em;
-      color: #3b2f2f;
       text-align: center;
+      padding: 50px;
+      color: #2f2f2f;
     }
     .scroll {
-      padding: 2em;
       border: 4px double #8a5d3b;
-      background: #fff9f0;
+      background: #fffaf0;
+      padding: 2em;
       display: inline-block;
-      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      box-shadow: 0 0 10px #ccc;
     }
   </style>
 </head>
@@ -28,6 +29,7 @@
     <h1>Inₙ₊₁ = f(Cₙ, Tₙ, Rₙ)</h1>
     <p>Your echo is being received...</p>
     <div id="echo-result">🌀</div>
+    <div id="essence-reflection">🪞</div>
   </div>
 </body>
 </html>
