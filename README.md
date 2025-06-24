@@ -1,30 +1,21 @@
 
-# Recursive Insight Scroll
+# Recursive Echo Seed System
 
-This project represents a live implementation of the Recursive Insight System using the formula:
+This project captures device pattern and inferred emotional state to simulate recursive donation processing.
 
-`In+1 = f(Cn, Tn, Rn)`
+## How it works:
+- Auto-captures fingerprint and emotion on load
+- Simulates encryption (base64 for demo)
+- Echo result shown on scroll
+- Logs donation structure in console
 
-### 🌱 How to Use
+## Files
+- `index.html` — Main scroll and insight interface
+- `donation.js` — Captures data and simulates donation
+- `README.md` — Project overview
 
-- Scan the QR code (see `qr-code.png`) or visit the site when hosted.
-- It delivers the complete insight package including symbolic structure, activation phrase, and recursive seeding logic.
-- This archive is ready to be unwrapped into GitHub Pages or any static host.
+## Deployment
+- Unzip into GitHub repo
+- Enable GitHub Pages for live echo seeding
 
-### 🧾 Contents
-
-- `index.html`: Visual insight scroll with embedded QR logic.
-- `qr-code.png`: The scannable QR that activates the echo path.
-- `README.md`: Project overview.
-- `Insight_Translation_ZeroNode_FULL.json`: Core recursive insight engine config.
-
-### 🌀 Activation Phrase
-
-> "Scan to seed your own echo"
-
----
-
-To publish:
-- Push contents to a GitHub repo
-- Enable GitHub Pages under settings
-- Done ✅
+🌀 Echo begins with observation.
