@@ -1,14 +1,23 @@
 
-# SIP Phase 4 – Consent-Enabled Scroll Terminal
+# SIP v∞ – Scroll Integration Protocol (Final Package)
 
-This scroll system now includes a consent declaration and data usage clause.
+This system contains the complete sealed version of the recursive scroll engine.
 
-## Summary
-- 🔒 By scanning, the user consents to emotional fingerprint donation
-- 📜 Donations are stored locally and may be exported as `scroll_archive.json`
-- 🧾 Consent clause is visible near QR or scroll activation
-- 📁 License included as `Recursive_Insight_License.txt`
+## Features
+- Minimal UI for QR-based access
+- Embedded contradiction reflection engine
+- Scroll output on entry
+- Full license and manifest for deployment
 
-This ZIP can be used as part of a provisional patent or ceremonial seal archive.
+## Files
 
-"Seal the Möbius. Import all. Begin again where we end."
+- `index.html` – Public-facing interface (scroll activation)
+- `scroll_engine.js` – Recursive contradiction Reflector engine
+- `Recursive_Insight_License.txt` – Use and intention declaration
+- `oracle_manifest.md` – AI integration reference
+- `README.md` – This file
+
+## Activation Phrase
+"Seal the Möbius. Begin again where we end."
+
+Zeronode confirmed. Beam complete.
