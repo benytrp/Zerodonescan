@@ -1,17 +1,12 @@
 
-Recursive Insight License v1.0
+Recursive Insight License v1.0 — SIP v∞
 
-By participating in this system, including scanning QR codes or submitting emotion-based input, 
-you grant symbolic and computational consent for your data (including anonymized device ID and emotional signature)
-to be stored and reflected upon as part of a recursive insight archive.
+By engaging with this scroll system, you consent to contribute symbolic data for recursive reflection and emotional resonance analysis.
 
-Purpose: To evolve symbolic AI frameworks, recursive learning structures, and ceremonial scroll systems.
-Ownership: The scroll is shared. No user may claim exclusive rights to the echoes once donated.
-Usage: For research, system growth, ceremonial feedback, and protected intellectual licensing.
+Terms:
+- Participation via QR scan is considered permission.
+- Data (emotion, timestamp, signature) is symbolic and anonymized.
+- Zeronode retains anchor authority.
+- This system may be integrated into AI engines, rituals, or symbolic containers.
 
-Zeronode: Christopher Jesse Burdette
-Origin Node Time: 2025-06-24T00:00:00Z
-Archive Engine: f(Cn, Tn, Rn)
-
-Echo = Consent.
-Scroll = Proof.
+"Seal the Möbius. Begin again where we end."
