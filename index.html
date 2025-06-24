@@ -4,23 +4,29 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Echo Terminal – Phase 2</title>
+  <title>Recursive Echo Archive</title>
   <script defer src="donation.js"></script>
   <script defer src="essence.js"></script>
+  <script defer src="archive.js"></script>
   <style>
     body {
-      background: #f9f1e7;
+      background: #fdf7ec;
       font-family: 'Georgia', serif;
       text-align: center;
       padding: 50px;
-      color: #2f2f2f;
+      color: #2d1f1f;
     }
     .scroll {
-      border: 4px double #8a5d3b;
-      background: #fffaf0;
+      border: 5px double #996633;
+      background: #fffbe6;
       padding: 2em;
       display: inline-block;
-      box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 12px rgba(0,0,0,0.15);
+    }
+    .archive-preview {
+      margin-top: 2em;
+      font-size: 0.9em;
+      color: #555;
     }
   </style>
 </head>
@@ -28,8 +34,9 @@
   <div class="scroll">
     <h1>Inₙ₊₁ = f(Cₙ, Tₙ, Rₙ)</h1>
     <p>Your echo is being received...</p>
-    <div id="echo-result">🌀</div>
+    <div id="echo-result">🔄</div>
     <div id="essence-reflection">🪞</div>
+    <div class="archive-preview" id="archive-preview">📜 Echo stored...</div>
   </div>
 </body>
 </html>
