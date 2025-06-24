@@ -1,6 +1,5 @@
 
-// Simulated lightweight fingerprinting
-function getDeviceFingerprint() {
+function getFingerprint() {
   return [
     navigator.userAgent,
     screen.width + 'x' + screen.height,
@@ -10,24 +9,22 @@ function getDeviceFingerprint() {
   ].join('|');
 }
 
-// Simulated emotion seed
 function inferEmotion() {
-  const options = ['curious', 'tired', 'energized', 'conflicted', 'hopeful', 'reflective'];
+  const options = ['curious', 'fractured', 'elevated', 'dormant', 'watching'];
   return options[Math.floor(Math.random() * options.length)];
 }
 
-// Package donation and simulate QR encoding or transmission
 function seedEcho() {
   const donation = {
     timestamp: new Date().toISOString(),
-    fingerprint: getDeviceFingerprint(),
+    fingerprint: getFingerprint(),
     emotion: inferEmotion(),
-    donation_hash: Math.random().toString(36).substring(2)
+    echo_id: Math.random().toString(36).substring(2, 12)
   };
-  const encoded = btoa(JSON.stringify(donation));
-  document.getElementById('echo-result').innerText =
-    `🔓 Donation Captured: ${donation.emotion} | Echo ID: ${donation.donation_hash}`;
-  console.log("Seeded donation:", donation);
-}
 
+  const encoded = btoa(JSON.stringify(donation));
+  sessionStorage.setItem('donation_block', encoded);
+  document.getElementById('echo-result').innerText =
+    `🔓 Donation Captured: ${donation.emotion} | Echo ID: ${donation.echo_id}`;
+}
 window.addEventListener('DOMContentLoaded', seedEcho);
